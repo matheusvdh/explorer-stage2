@@ -2,11 +2,16 @@ body {
     margin: 0;
 
     font-family: 'Open Sans', sans-serif;
+
+    background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+
+    min-height: 100vh;
 }
 
 .page {
     width: 1000px;
-    margin: 65px auto 0;
+    margin: 0 auto;
+    padding-top: 65px;
 }
 
 nav {
@@ -30,9 +35,13 @@ a {
     color: #1F1534
 }
 
+ul li a {
+    opacity: 0.5;
+}
 
 ul li a:hover {
     font-weight: bold;
+    opacity: 1;
 }
 
 
@@ -40,6 +49,12 @@ ul li a:hover {
     position: fixed;
     bottom: 0;
     right: 0;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 h1, ul {
@@ -56,27 +71,56 @@ h1 {
 }
 
 h1 span {
-    color: #1F1534;
+    color: #87d4b9;
     font-weight: bold;
 }
 
-p {
+section p {
     font-size: 14px;
     line-height: 28px;
-    color: #7D7987
+    color: #7D7987;
+
+    margin: 40px 0;
 }
 
 button {
+    color: white;
     text-transform: uppercase;
-
     font-family: 'Open Sans', sans-serif;
+
+    background: #69B99D;
+    border: none;
+    padding: 14px 32px 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    gap: 10px;
+
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #54a186;
 }
 
 footer {
     font-size: 14px;
     line-height: 28px;
+
+    text-align: center;
+    margin-top: 80px;
 }
 
 footer a {
     font-weight: bold;
+}
+
+
+#balls {
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }

@@ -16,3 +16,12 @@ O segundo projeto introduz novos elementos, como um header com navegação, um b
 
 Screenshot do projeto 02: <br/>
 <img src="https://user-images.githubusercontent.com/105821332/179077629-1e1e3c2a-6ef3-4a2b-ba02-f346a7b83e02.png" width="800"/>
+<br/>
+<br/>
+<br/>
+
+No terceiro desafio, deveriamos criar a página do zero, tendo como base apenas o layour no figma.
+
+Screenshot do resultado: <br/>
+<img src="https://github.com/matheusvdh/explorer-stage2/blob/main/desafio-recriando-layout/screenshot.png?raw=true" width="800"/>
+

@@ -1,7 +1,8 @@
 # EXPLORER - Stage 2
+### Introdução ao HTML e CSS
 Projetos e desafios do Stage 2 do programa Explorer da Rocketseat.
-
-<br/>
+<br />
+<br />
 
 O primeiro projeto trata-se de uma página estática para uma loja de decoração.
 <br/>
